@@ -154,7 +154,6 @@ def protected_api(request):
     return Response({
         "msg": "You are authenticated",
         "user": request.user.username,
-        "branch":"login-features",
-        "practice":"github",
-        "merging":"anaother branch"
+        "branch":"conflict-main-branch",
+        "practice":"github"
     })
