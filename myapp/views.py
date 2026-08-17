@@ -155,5 +155,6 @@ def protected_api(request):
         "msg": "You are authenticated",
         "user": request.user.username,
         "branch":"conflict-main-branch",
+        "branch":"conflict-branch",
         "practice":"github"
-    })
+    }) 
