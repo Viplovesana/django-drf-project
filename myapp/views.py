@@ -153,5 +153,6 @@ from rest_framework.decorators import api_view,permission_classes,authentication
 def protected_api(request):
     return Response({
         "msg": "You are authenticated",
-        "user": request.user.username
+        "user": request.user.username,
+        "branch":"login-features"
     })
